@@ -1,5 +1,5 @@
 export default function handleResponseFromAPI(promise) {
-    const keep = primise.then(() => {
+    const keep = promise.then(() => {
         console.log('Got a response from the API');
         return {
             status: 200,
