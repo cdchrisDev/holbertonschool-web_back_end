@@ -10,4 +10,4 @@ export default function getListStudentIds(arr) {
   }
 
   return arr.map(getId);
-  }
+}
