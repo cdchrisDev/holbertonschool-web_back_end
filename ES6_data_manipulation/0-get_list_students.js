@@ -18,4 +18,4 @@ export default function getListStudents() {
   ];
 
   return myArr;
-  }
+}
