@@ -6,4 +6,6 @@ export default function handleResponseFromAPI(promise) {
             body: 'success',
         };
     }).catch(() => new Error());
+
+    return keep
 }
