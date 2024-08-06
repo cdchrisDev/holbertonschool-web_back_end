@@ -1,6 +1,6 @@
 module.exports = {
     env: {
-      browser: false,
+      browser: true,
       es6: true,
       jest: true,
     },
@@ -13,7 +13,7 @@ module.exports = {
       SharedArrayBuffer: 'readonly',
     },
     parserOptions: {
-      ecmaVersion: 2018,
+      ecmaVersion: 2022,
       sourceType: 'module',
     },
     plugins: ['jest'],
